@@ -19,5 +19,5 @@ VALUES ('Grinch' , 10 ,'M','brown','kind',FALSE);
 INSERT INTO bears (name,age,gender,color,temperament,alive)
 VALUES ('Wendy' , 9 ,'F','black','curious',TRUE);
 
-INSERT INTO bears (age,gender,color,temperament,alive)
-VALUES (9 ,'F','black','curious',TRUE);
+INSERT INTO bears (name, age,gender,color,temperament,alive)
+VALUES (null, 9 ,'F','black','curious',TRUE);
